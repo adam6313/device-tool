@@ -1,0 +1,50 @@
+{
+  "_from": "device-tool",
+  "_id": "device-tool@1.0.13",
+  "_inBundle": false,
+  "_integrity": "sha512-F8MHJ6htPbYBMU3udNUO0++sbVPvpolxORftq/XKa1f/7foKt+JUGGRN3xen5gTA0B1MptD0WpxICLZPH5Vd1w==",
+  "_location": "/device-tool",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "device-tool",
+    "name": "device-tool",
+    "escapedName": "device-tool",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/device-tool/-/device-tool-1.0.13.tgz",
+  "_shasum": "ae207714a10d3cfc2ecf29925568b099d581c487",
+  "_spec": "device-tool",
+  "_where": "/Users/adam/js/ttttt",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "path": "^0.12.7",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "name": "device-tool",
+  "scripts": {
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.13"
+}
